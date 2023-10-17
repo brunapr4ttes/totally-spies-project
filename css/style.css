@@ -1,0 +1,87 @@
+:root{
+    --green: #1cd61c;
+    --white: #FFF;
+    --white-luffy: #e4e5e7;
+    --black: #1a1b1d;
+    --purple: #df29df;
+    --yellow: #ebd348;
+    --strawhat: #ffffff;
+}
+
+body{
+    border: 2px solid var(--red);
+    width: 900px;
+}
+
+.container{
+    background-color: var(--strawhat);
+}
+
+.imagem{
+    background-image: url(../img/espias-capa.jfif);
+    opacity: 0.5;
+}
+
+.image-spies{
+    background-color:var(--strawhat);
+    background-image: url(../img/Spies_va.webp);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 80px;
+    color:var(--black);
+    margin-top: -30px ;
+    margin-bottom: 1rem;
+    color: var(--black);
+    -webkit-text-stroke: 2.5px var(--black);
+    
+}
+
+nav{
+    padding: 1rem;
+    background-color: var(--purple);
+    text-align: center;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: var(--white);
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px 15px;
+}
+
+.barrinha{
+    color: var(--white);
+    background-color:var(--green);
+    height: 8px;
+}
+
+main{
+    background-color:var(--white);
+    font-size: 20px;
+    padding: 2rem 4rem;
+}
+
+.about{
+    background-color: #df29df;
+    color: var(--white);
+}
+
+a{
+    text-decoration: none;
+    background-color: var(--purple);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.5s;
+}
+
+a:hover{
+    background-color: var(--purple);
+    color: var(--green);
+    font-size: 30px;
+    /* display: none; */
+}
