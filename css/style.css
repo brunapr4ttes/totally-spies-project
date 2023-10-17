@@ -4,12 +4,13 @@
     --white-luffy: #e4e5e7;
     --black: #1a1b1d;
     --purple: #df29df;
-    --yellow: #ebd348;
+    --yellow: #ffe551;
     --strawhat: #ffffff;
+    --red: #ff0000;
 }
 
 body{
-    border: 2px solid var(--red);
+    border: 2px solid var(--purple);
     width: 900px;
 }
 
@@ -85,3 +86,56 @@ a:hover{
     font-size: 30px;
     /* display: none; */
 }
+
+.rodapezinholindo{
+    background-color: #df29df;
+    color: var(--white);
+    text-align: center;
+    margin: 1em 20em;
+    border: 0px solid;
+    border-radius: 5px;
+}
+.samnome{
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.5s;
+    margin: 1em 1em;
+    border: 0px solid;
+    border-radius: 5px;
+}
+
+.samnome:hover{
+    background-color: var(--green);
+    color: var(--black);
+    font-size: 30px;
+}
+.nomealex{
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.5s;
+    margin: 1em 1em;
+    border: 0px solid;
+    border-radius: 5px;
+}
+
+.nomealex:hover{
+    background-color: var(--yellow);
+    color: var(--black);
+    font-size: 30px;
+}
+
+.nomeclover{
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.5s;
+    margin: 1em 1em;
+    border: 0px solid;
+    border-radius: 5px;
+}
+
+.nomeclover:hover{
+    background-color: var(--red) ;
+    color: var(--black);
+    font-size: 30px;
+}
+
